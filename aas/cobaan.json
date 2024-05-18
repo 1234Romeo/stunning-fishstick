@@ -1,0 +1,13 @@
+.roy.01.jpg {
+    width: 220px;
+    height: 220px;
+    border: 5px solid #ccc; /* Warna dan ketebalan bingkai */
+    border-radius: 50%;
+    overflow: hidden;
+    box-sizing: border-box; /* Memastikan bahwa bingkai berada di dalam dimensi yang ditetapkan */
+}
+
+.round-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
